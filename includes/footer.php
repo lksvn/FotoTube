@@ -2,7 +2,7 @@
         <div class="row">
           <div class="columns medium-12">
             <!-- TO TOP -->
-            <a href="#home" class="top wow bounceInUp"></a>
+            <a href="#home" class="show-for-medium-up top wow bounceInUp"></a>
             <div class="meh">
               <div class="fb-like"  data-href="https://www.facebook.com/FotoTubeBR" data-layout="standard" data-show-faces="false" data-share="true"></div>
             </div>
