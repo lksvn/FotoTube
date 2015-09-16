@@ -9,7 +9,11 @@
     .steps .number{width:45px;height:45px;font-size:20px;line-height:45px}
 
     .section{padding-top:60px;padding-bottom:70px;}
-    .meh{width:200px;overflow: hidden;}
+    .meh{width:140px;overflow: hidden;}
+
+    .status:before{display: block;width:100%;}
+    .status a.retry{width:100%;margin-top:20px;}
+    #myTable strong{font-size:16px;}
 }
 @media only screen and (min-width : 480px) and (max-width: 767px) {
     #home h2{font-size:30px;}
@@ -27,13 +31,3 @@
     .navBg li{margin-left:0;}
     .navBg li a.n{font-size:14px}
 }
-/*@media only screen and (max-height: 650px){
-    #home{padding-top:20px;}
-    #home #scrollDown{display: block;}
-    .homeCall{margin-top:50px;}
-    .title{margin-bottom: 25px}
-    .planBox .bg{padding:20px 10px;}
-    .planBox li{margin-bottom:15px;}
-
-    #scrollDown{display:none;}
-}*/
