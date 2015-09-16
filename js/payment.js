@@ -7,4 +7,16 @@ $(document).ready(function() {
         $(this).parent().fadeOut('fast');
         $('.showPedido').fadeIn();
     });
+
+
+    $('.hidePag').hide();
+    $('input[name="formaPagamento"]').click(function(){
+        if( $('#cc').is(':checked') ){
+            $('.hidePag').fadeIn();
+        }elseif($('#boleto').is(':checked')){
+            $('.hidePag').fadeOut();
+        }
+    });
+
+
 });

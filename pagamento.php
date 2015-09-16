@@ -39,11 +39,11 @@
                             <tr>
                                 <td>Plano 1</td>
                                 <td>
-                                    <label for="boleto" class="left rightMarg">
-                                        <input type="radio" id="boleto" name="formaPagamento" class="left rightMarg" value="boleto"> Boleto
+                                    <label for="boleto" class="left  rightMarg">
+                                        <input type="radio" id="boleto" name="formaPagamento" class="left" style="margin:5px 5px 0 0;" value="boleto" checked> Boleto
                                     </label>
-                                    <label for="cc" class="left">
-                                        <input type="radio" id="cc" name="formaPagamento" class="left rightMarg" value="cartao"> Cartão de Crédito
+                                    <label for="cc" class="left ">
+                                        <input type="radio" id="cc" name="formaPagamento" class="left" value="cartao" style="margin:5px 5px 0 0;"> Cartão de Crédito
                                     </label>
                                 </td>
                                 <td>R$ 499,00</td>
@@ -55,10 +55,10 @@
                             <tr>
                                 <td><strong>Cupom de desconto</strong></td>
                                 <td>
-                                    <div class="columns medium-8">
+                                    <div class="columns medium-8 noPad topPad">
                                         <input type="text">
                                     </div>
-                                    <div class="columns medium-4">
+                                    <div class="columns medium-4 noMarg topPad">
                                         <input type="submit" value="Validar">
                                     </div>
                                 </td>
@@ -75,45 +75,43 @@
                             <tr>
                                 <td colspan="3" height="10" class="bg"></td>
                             </tr>
-                            <tr>
-                                <td colspan="3"><strong>Pagamento</strong></td>
-                            </tr>
-                            <tr>
+                            <tr class="hidePag">
                                 <td colspan="3">
-                                    <div class="row">
+                                    <strong>Pagamento</strong>
+                                    <div class="row topMarg">
                                         <div class="columns medium-12">
-                                            <ul class="inline-list">
+                                            <ul class="inline-list cartoes botPad">
                                                 <li>
                                                     <label for="master">
-                                                        <img src="http://placehold.it/65x40" alt="">
+                                                        <img src="img/cc1.jpg" alt="">
                                                         <span class="clear"></span>
-                                                        <input type="radio" id="master" name="cc" value="master card">
+                                                        <input type="radio" id="master" name="cc" value="master card" checked>
                                                     </label>
                                                 </li>
                                                 <li>
                                                     <label for="visa">
-                                                        <img src="http://placehold.it/65x40" alt="">
+                                                        <img src="img/cc2.jpg" alt="">
                                                         <span class="clear"></span>
                                                         <input type="radio" id="visa" name="cc" value="visa">
                                                     </label>
                                                 </li>
                                                 <li>
                                                     <label for="elo">
-                                                        <img src="http://placehold.it/65x40" alt="">
+                                                        <img src="img/cc3.jpg" alt="">
                                                         <span class="clear"></span>
                                                         <input type="radio" id="elo" name="cc" value="elo">
                                                     </label>
                                                 </li>
                                                 <li>
                                                     <label for="american">
-                                                        <img src="http://placehold.it/65x40" alt="">
+                                                        <img src="img/cc4.jpg" alt="">
                                                         <span class="clear"></span>
                                                         <input type="radio" id="american" name="cc" value="american express">
                                                     </label>
                                                 </li>
                                                 <li>
                                                     <label for="diners">
-                                                        <img src="http://placehold.it/65x40" alt="">
+                                                        <img src="img/cc5.jpg" alt="">
                                                         <span class="clear"></span>
                                                         <input type="radio" id="diners" name="cc" value="diners club">
                                                     </label>
