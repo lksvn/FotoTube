@@ -39,11 +39,11 @@
                             <tr>
                                 <td>Plano 1</td>
                                 <td>
-                                    <label for="boleto">
-                                        <input type="radio" id="boleto" name="formaPagamento" value="boleto"> Boleto
+                                    <label for="boleto" class="left rightMarg">
+                                        <input type="radio" id="boleto" name="formaPagamento" class="left rightMarg" value="boleto"> Boleto
                                     </label>
-                                    <label for="cc">
-                                        <input type="radio" id="cc" name="formaPagamento" value="cartao"> Cartão de Crédito
+                                    <label for="cc" class="left">
+                                        <input type="radio" id="cc" name="formaPagamento" class="left rightMarg" value="cartao"> Cartão de Crédito
                                     </label>
                                 </td>
                                 <td>R$ 499,00</td>
@@ -54,7 +54,14 @@
                             </tr>
                             <tr>
                                 <td><strong>Cupom de desconto</strong></td>
-                                <td><input type="text"> <input type="submit" value="Validar"> </td>
+                                <td>
+                                    <div class="columns medium-8">
+                                        <input type="text">
+                                    </div>
+                                    <div class="columns medium-4">
+                                        <input type="submit" value="Validar">
+                                    </div>
+                                </td>
                                 <td>- R$ 99,00</td>
                             </tr>
                             <tr>
@@ -73,34 +80,161 @@
                             </tr>
                             <tr>
                                 <td colspan="3">
-                                    <ul class="inline-list">
-                                        <li><label for="master"><input type="radio" id="master" name="cc" value="master card"> <img src="http://placehold.it/65x40" alt=""></label></li>
-                                        <li><label for="visa"><input type="radio" id="visa" name="cc" value="visa"> <img src="http://placehold.it/65x40" alt=""></label></li>
-                                        <li><label for="elo"><input type="radio" id="elo" name="cc" value="elo"> <img src="http://placehold.it/65x40" alt=""></label></li>
-                                        <li><label for="american"><input type="radio" id="american" name="cc" value="american express"> <img src="http://placehold.it/65x40" alt=""></label></li>
-                                        <li><label for="diners"><input type="radio" id="diners" name="cc" value="diners club"> <img src="http://placehold.it/65x40" alt=""></label></li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">
-                                    <table cellspacing="0" cellpadding="0" width="100%">
-                                        <tr>
-                                            <td>
-                                                Nome do Titular
-                                                <input type="text" name="titular" patter="alpha" required>
-                                            </td>
-                                            <td>
-                                                Número do Cartão
-                                                <input type="text" name="cardNumber" id="pag_numero" required>
-                                            </td>
-                                        </tr>
-                                    </table>
+                                    <div class="row">
+                                        <div class="columns medium-12">
+                                            <ul class="inline-list">
+                                                <li>
+                                                    <label for="master">
+                                                        <img src="http://placehold.it/65x40" alt="">
+                                                        <span class="clear"></span>
+                                                        <input type="radio" id="master" name="cc" value="master card">
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label for="visa">
+                                                        <img src="http://placehold.it/65x40" alt="">
+                                                        <span class="clear"></span>
+                                                        <input type="radio" id="visa" name="cc" value="visa">
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label for="elo">
+                                                        <img src="http://placehold.it/65x40" alt="">
+                                                        <span class="clear"></span>
+                                                        <input type="radio" id="elo" name="cc" value="elo">
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label for="american">
+                                                        <img src="http://placehold.it/65x40" alt="">
+                                                        <span class="clear"></span>
+                                                        <input type="radio" id="american" name="cc" value="american express">
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label for="diners">
+                                                        <img src="http://placehold.it/65x40" alt="">
+                                                        <span class="clear"></span>
+                                                        <input type="radio" id="diners" name="cc" value="diners club">
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="columns medium-6">
+                                            Nome do Titular
+                                            <input type="text" name="titular" patter="alpha" required>
+                                        </div>
+                                        <div class="columns medium-6">
+                                            Número do Cartão
+                                            <input type="text" name="cardNumber" id="pag_numero" required>
+                                        </div>
+
+                                        <div class="columns medium-6">
+                                            Data de Validade:
+                                            <div class="row">
+                                                <div class="columns medium-6">
+                                                    <div class="columns small-3">
+                                                        <label for="mes" class="right inline">Mês</label>
+                                                    </div>
+                                                    <div class="columns small-9">
+                                                        <select name="mes" id="mes">
+                                                            <option value="jan">Janeiro</option>
+                                                            <option value="fev">Fevereiro</option>
+                                                            <option value="mar">Março</option>
+                                                            <option value="abr">Abril</option>
+                                                            <option value="maio">Maio</option>
+                                                            <option value="jun">Junho</option>
+                                                            <option value="jul">Julho</option>
+                                                            <option value="ago">Agosto</option>
+                                                            <option value="set">Setembro</option>
+                                                            <option value="out">Outubro</option>
+                                                            <option value="nov">Novembro</option>
+                                                            <option value="dez">Dezembro</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="columns medium-6">
+                                                    <div class="columns small-3">
+                                                        <label for="ano" class="right inline">Ano</label>
+                                                    </div>
+                                                    <div class="columns small-9">
+                                                        <select name="ano" id="ano">
+                                                            <?php
+                                                                for ($i = 15; $i <= 25; $i++) {
+                                                                    echo '<option value="">20'.$i.'</option>';
+                                                                }
+                                                            ?>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="columns medium-6">
+                                            Código de Segurança:
+                                            <input type="text" id="pag_cod">
+                                        </div>
+                                    <div class="clear"></div>
+                                        <div class="columns medium-6">
+                                            Número de Parcelas:
+                                            <select name="ano" id="ano">
+                                                <?php
+                                                    $valor = 400;
+                                                    for ($i = 1; $i <= 12; $i++) {
+                                                        echo '<option value="">'.$i.'x R$'.number_format($valor/$i,2,',','.').'</option>';
+                                                    }
+                                                ?>
+                                            </select>
+                                        </div>
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
+                    <input type="submit" value="Finalizar" class="right">
                 </form>
+
+<div class="showPedido" style="display:none">
+                <div class="numeroPedido noUpper botMarg">
+                    Seu pedido <strong>#1234567890</strong> foi efetuado com sucesso. <br>
+                    Cartão ****-****-****-7768 - 10x R$ 40,00 <br>
+                    Um e-mail com os detalhes da transação foi enviado para email@dominio.com.br
+                </div>
+                <table cellspacing="0" cellpadding="0" width="100%" id="myTable">
+                    <thead>
+                        <tr>
+                            <td><strong>Plano</strong></td>
+                            <td><strong>Forma de Pagamento</strong></td>
+                            <td><strong>Valor</strong></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" height="10" class="bg"></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Plano 1</td>
+                            <td>Cartão de Crédito</td>
+                            <td>R$ 499,00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" height="10" class="bg"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Cupom de desconto</strong></td>
+                            <td>- R$ 99,00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" height="10" class="bg"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total</strong></td>
+                            <td><strong>R$ 400,00</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+</div>
             </div>
         </div>
     </div>
