@@ -13,7 +13,7 @@
                             <input type="text" id="order" name="order" placeholder="1234567890" required pattern="number">
                             <small class="error">Código do pedido inválido!</small>
                         </div>
-                        <div class="small-3 medium-2 columns">
+                        <div class="small-4 medium-2 columns">
                             <input class="postfix" type="submit" value="Consultar">
                         </div>
                     </div>
