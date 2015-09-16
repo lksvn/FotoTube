@@ -1,0 +1,39 @@
+@media only screen and (min-width : 320px) and (max-width: 767px) {
+    #home{padding-top:20px;}
+    #home h2{font-size:25px;}
+    .homeCall{margin-top:30px;}
+    .homeCall span{font-size:30px;}
+    .homeCall span small{font-size:14px;line-height: 16px;}
+
+    .stepWrap{font-size:12px;background-position-y:23px;}
+    .steps .number{width:45px;height:45px;font-size:20px;line-height:45px}
+
+    .section{padding-top:60px;padding-bottom:70px;}
+    .meh{width:200px;overflow: hidden;}
+}
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+    #home h2{font-size:30px;}
+    .homeCall span{font-size:40px;}
+    .homeCall span small{font-size:20px;line-height: 22px;}
+    .stepWrap{font-size:14px;}
+
+    .top{margin:0 0 10px 10px}
+    .fazul{margin:0;}
+}
+@media only screen and (min-width : 640px) and (max-width: 767px) {
+    .logo{margin-left:50px;}
+}
+@media only screen and (min-width : 768px) and (max-width: 768px) {
+    .navBg li{margin-left:0;}
+    .navBg li a.n{font-size:14px}
+}
+/*@media only screen and (max-height: 650px){
+    #home{padding-top:20px;}
+    #home #scrollDown{display: block;}
+    .homeCall{margin-top:50px;}
+    .title{margin-bottom: 25px}
+    .planBox .bg{padding:20px 10px;}
+    .planBox li{margin-bottom:15px;}
+
+    #scrollDown{display:none;}
+}*/

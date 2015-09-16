@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/*font-family: 'Open Sans', sans-serif;*/
+@font-face {
+    font-family: 'helveticaLT';
+    src: url('fonts/helveticaneueltstdcn-webfont.eot');
+    src: url('fonts/helveticaneueltstdcn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneueltstdcn-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneueltstdcn-webfont.woff') format('woff'),
+         url('fonts/helveticaneueltstdcn-webfont.ttf') format('truetype'),
+         url('fonts/helveticaneueltstdcn-webfont.svg#helveticaneueltstdcn57Cn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}/*font-family: 'helveticaLT', sans-serif;*/
+@font-face {
+    font-family: 'monotypeCorsiva';
+    src: url('fonts/monotypecorsiva-webfont.eot');
+    src: url('fonts/monotypecorsiva-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/monotypecorsiva-webfont.woff2') format('woff2'),
+         url('fonts/monotypecorsiva-webfont.woff') format('woff'),
+         url('fonts/monotypecorsiva-webfont.ttf') format('truetype'),
+         url('fonts/monotypecorsiva-webfont.svg#monotypecorsivaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}/*font-family: 'monotypeCorsiva', sans-serif;*/
+
+/* ======================================================================== */
+.menuHome li a,
+.login,
+.navBg li a,
+.planBox .buy,
+input[type="submit"]{
+    -webkit-transition:background-color .3s;
+    -o-transition:background-color .3s;
+    transition:background-color .3s;
+}
+/* ======================================================================== */
+.clear:before,.clear:after {content: " ";display: table;}
+.clear:after {clear: both;}
+/* ======================================================================== */
+.topPad{padding-top:10px !important;}
+.leftPad{padding-left:10px !important;}
+.botPad{padding-bottom:10px !important;}
+.rightPad{padding-right:10px !important;}
+
+.topMarg{margin-top:10px !important;}
+.leftMarg{margin-left:10px !important;}
+.botMarg{margin-bottom:10px !important;}
+.rightMarg{margin-right:10px !important;}
+.sideMarg{margin-left:10px !important;margin-right:10px !important;}
+.tpMarg{margin-top:10px !important;margin-bottom:10px !important;}
+
+.noPad{padding:0;}
+.noMarg{margin:0;}
+
+.noUpper{text-transform:none;}
+/* ======================================================================== */
+body,html{height:100%;min-height:100%;width:100%;}
+body{font-family:'Open Sans',sans-serif;}
+/* ======================================================================== */
+#pagepiling{height:100%;}
+.section{min-height:100%;width:100%;position:relative;top:0;left:0;padding-top:95px;}
+
+.top{width:55px;height:55px;background:#00344a url('../img/topArrow.png') no-repeat 0 0;display:block;z-index:100;float:right;margin-top:-80px;}
+.login,
+.planBox .buy,
+input[type="submit"]{cursor:pointer;border:0;display: block;float:right;padding:0 0 0 25px;width:70px;margin-top:12px;color:#fff;font:normal 14px/25px 'helveticaLT',sans-serif;background:#ff3f42 url('../img/user.png') no-repeat 5px 6px;text-transform: none}
+.login:hover,
+.planBox .buy:hover,
+input:hover[type="submit"]{background-color:#00c8cc;color:#fff;}
+
+.title{font:30px/100% 'helveticaLT',sans-serif;color:#00344a;margin-bottom: 60px}
+.formMsg{color:#ff3f42;display:none;font-size:14px;}
+/* ======================================================================== */
+.scrollIcon,
+.scrollIcon2,
+.scrollIcon3{display: block;margin:0;position:absolute;bottom:10px;left:50%;}
+.scrollIcon2,
+.scrollIcon3{width:80px;height:60px;background:url('../img/arrowDown.png') no-repeat 0 0;margin-left:-40px;}
+.scrollIcon{width:41px;height:64px;background:url('../img/scrollIcon.png') no-repeat 0 0;margin-left:-20px;}
+.scrollIcon3{background-position:0 -60px;}
+/* ======================================================================== */
+.top-bar,
+.top-bar.expanded,
+.top-bar.expanded .title-area{background:#00344a;}
+.top-bar-section,
+.top-bar-section ul li{background:#00344a;}
+    .navBg{background:#00344a;height:50px;position: fixed;z-index:1003;top:0;left:0;width:100%;display:block;
+        -webkit-transition: top 0.5s ease-in-out;
+        -o-transition: top 0.5s ease-in-out;
+        transition: top 0.5s ease-in-out;
+    }
+    .navBg.hide{top:-50px;}
+    .navBg ul{padding:0;margin:0;}
+    .navBg li a.n{font:16px/30px 'helveticaLT',sans-serif;color:#fff;text-transform: uppercase;padding:0 10px;margin-top:10px;}
+    .navBg li:hover a.n,.navBg li a.n.active{background:#00c8cc;}
+    .logo2{display:block;width:40px;height:40px;background:url('../img/logo2.png') no-repeat 0 0;padding:0;margin-top:7px;}
+    .logo2:hover{background-color:transparent;}
+/* ======================================================================== */
+h1,h2,h3,h4,h5,h6{font-family: 'brandon_bold',tahoma,helvetica,sans-serif;text-transform: uppercase;}
+h1{font-size:30px;line-height:35px}
+h2{font-size:25px;line-height:30px}
+h3{font-size:20px;line-height:25px}
+h4{font-size:18px;line-height:23px}
+h5{font-size:16px;line-height:21px}
+h6{font-size:14px;line-height:19px}
+/* ======================================================================== */
+#home{background:url('../img/bgHome.jpg') no-repeat center top;padding:40px 0 0 0;}
+    #home .login{margin-top:0px;}
+    .menuHome{position: relative;}
+    .menuHome ul{display:none;position: absolute;top:100%;left:0;z-index:100;width:200px;background:#fff;padding:0;margin:0;list-style: none;}
+    .menuHome li a{padding:5px 10px;display:block;}
+    .menuHome li:hover a{color:#fff;background:#00c8cc;}
+    .menuHome span{text-transform:uppercase;color:#fff;font:normal 18px/100% 'helveticaLT',sans-serif;cursor:pointer;background: url('../img/hamburguer.png') no-repeat 100% 4px;padding-right:20px;}
+
+    #home h2{text-align:center;margin-top:20px;color:#fff;font:normal 42px/100% 'monotypeCorsiva', sans-serif;text-shadow:2px 1px 2px #000;}
+
+    .homeCall{color:#fff;font-family:'helveticaLT', sans-serif;margin-top:110px;}
+    .homeCall span{font-size:62px;text-transform:uppercase;text-align: center;display: block;}
+    .homeCall span small{font-size:30px;line-height:30px;display: block;}
+
+    .stepWrap{background:url('../img/dot.gif') repeat-x 0 40px;float:left;width:25%;text-align: center;font:17px 'helveticaLT',sans-serif;text-shadow:2px 1px 2px #000;}
+    .steps .number{font:38px/70px 'helveticaLT',sans-serif;text-shadow:none;display:block;width:70px;height:70px;border:2px solid #00344a;background:#fff;border-radius:100%;color:#00344a;text-align: center;box-shadow:2px 2px 2px #333;margin:0 auto 10px;}
+
+/* ======================================================================== */
+#howWorks{background:#fff;}
+/* ======================================================================== */
+#register{background:#fff;}
+    .termsOfUse {font-size:12px;}
+    .termsOfUse a{color:#ff3f42;font-weight:bold;text-decoration: underline;}
+    .titleLogin,.titleSignIn{display:block;margin-bottom:40px;text-align:center;text-transform:uppercase;color:#fff;font:18px/45px 'helveticaLT',sans-serif;background:#00344a;}
+    .titleLogin{background:#00c8cc;}
+
+    .contactFormMsg ul{margin:10px 0 10px 85px}
+    .contactFormMsg strong{font-size:30px;color:#00344a;}
+    .contactFormMsg strong.s{font-size:20px;}
+    .contactFormMsg a[class^='icon']{display:block;width:42px;height:42px;background:url('../img/social.png') no-repeat 0 0;}
+    .contactFormMsg a.iconInst{background-position: -42px 0}
+    .contactFormMsg a.iconFb{background-position: -83px 0}
+/* ======================================================================== */
+#plans{background:url('../img/bgPlans.jpg') fixed center top;}
+    #plans .title{color:#fff;}
+    .planBox {font-size:16px;color:#fff;text-align: center}
+        .planBox .bg{background:rgba(0,52,74,.75);padding:40px 10px;}
+        .planBox .planTitle{font:30px/55px 'helveticaLT',sans-serif;text-transform: uppercase;display: block;background:#00344a;}
+        .planBox .planPrice{font-weight: bold;height:100px;margin-bottom: 10px}
+        .planBox ul{list-style: none;padding:0;margin:0;}
+            .planBox li{margin-bottom:25px;}
+        .planBox .buy,input[type="submit"]{background-image: none;margin:0 auto;padding:5px 0;text-align:center;text-transform:uppercase;font-size:16px;width:100px;float:none;}
+/* ======================================================================== */
+#payment{background:#eee;padding-top:30px;}
+#payment .logo{display:block;width:300px;margin:0 auto 30px auto;}
+/* ======================================================================== */
+#contact{background:#00c8cc;}
+/* ======================================================================== */
+#orderStatus{background:#eeeeee;}
+    .footer{background:#fff;width:100%;padding:10px 0 0 0;min-height:45px;position:absolute;bottom:0;}
+    .fazul{background:url('../img/fazul.png') no-repeat 0 0;display: block;width:63px;height:28px;margin-top:-25px;}
+
+    .statusPedido{display:none;}
+    .status{color:#fff;text-align: center;padding:10px;margin:10px 0;}
+        .status a strong{font-size:20px;}
+        .status a.retry{background:#fff;color:#ff3f42;text-transform: uppercase;padding: 2px 5px;float: right;font-size: 14px;}        .status:before{content:'STATUS';font-weight: bold;float:left;}
+    .status.nope{background:#ff3f42;}
+    .status.wait{background:#ffc107;color:#00344a;}
+        .status.wait:before{color:#00344a;}
+    .status.done{background:#00c8cc;}
+
+    #myTable,#myTable table{border:0;}
+    #myTable thead,#myTable td,#myTable tfoot{background:#00344a;color:#fff;font-weight: normal}
+    #myTable strong{text-transform: uppercase;font:bold 20px 'helveticaLT',sans-serif;}
+    #myTable .bg{background:#eee;padding:0;}
+
+    .resumoPedido,.numeroPedido{text-align: center;text-transform: uppercase;font-size:20px;}
+    .resumoPedido{color:#ff3f42}
+    .numeroPedido{color:#00344a;}
+/* ======================================================================== */
+.logo2:hover{
+    -webkit-animation:spin .8s linear infinite;
+    -moz-animation:spin .8s linear infinite;
+    animation:spin .8s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
