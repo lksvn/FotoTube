@@ -8,8 +8,8 @@
             </div>
             <form action="#" method="post" data-abide>
                 <div class="columns medium-6 medium-offset-3">
-                    <div class="row small-collapse">
-                        <div class="small-9 medium-10 columns">
+                    <div class="row collapse medium-uncollapse">
+                        <div class="small-8 medium-10 columns">
                             <input type="text" id="order" name="order" placeholder="1234567890" required pattern="number">
                             <small class="error">Código do pedido inválido!</small>
                         </div>
