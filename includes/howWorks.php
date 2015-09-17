@@ -12,11 +12,13 @@
           <div class="columns medium-4 text-center">
               <div class="botMarg">Divulgue</div>
               <img src="http://placehold.it/300x200" alt="">
+              <div class="clear"></div>
               Divulgue as HashTags's para os convidados!
           </div>
           <div class="columns medium-4 text-center">
               <div class="botMarg">Confira e curta!</div>
               <img src="http://placehold.it/300x200" alt="">
+              <div class="clear"></div>
               Pronto! As fotos dos seus amigos no telão da sua festa.
           </div>
           <div class="clear"></div>
