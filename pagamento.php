@@ -22,7 +22,7 @@
 
             <a href="#" class="logo"><img src="img/logo_n2.png" alt="Foto Tube"></a>
 
-            <div class="columns medium-12">
+            <div class="columns medium-12 collapse">
                 <form action="#" method="post" data-abide>
                     <table cellspacing="0" cellpadding="0" width="100%" id="myTable">
                         <thead>
@@ -56,10 +56,10 @@
                                 <td><strong>Cupom de desconto</strong></td>
                                 <td>
                                     <div class="columns medium-8 noPad topPad">
-                                        <input type="text">
+                                        <input type="text" name="cupom" id="cupom">
                                     </div>
                                     <div class="columns medium-4 noMarg topPad">
-                                        <input type="submit" value="Validar">
+                                        <input type="submit" value="Validar" class="cupomSubmit" name="cupomSubmit" id="cupomSubmit">
                                     </div>
                                 </td>
                                 <td>- R$ 99,00</td>
@@ -172,7 +172,8 @@
                                             <input type="text" id="pag_cod">
                                         </div>
                                     <div class="clear"></div>
-                                        <div class="columns medium-12">
+                                        <div class="columns small-12 medium-12">
+                                            <div class="row small-collapse">
                                             <div class="columns medium-3">
                                                 Número de Parcelas:
                                             </div>
@@ -186,6 +187,7 @@
                                                     ?>
                                                 </select>
                                             </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </td>
@@ -195,48 +197,48 @@
                     <input type="submit" value="Finalizar" class="right">
                 </form>
 
-<div class="showPedido" style="display:none">
-                <div class="numeroPedido noUpper botMarg">
-                    Seu pedido <strong>#1234567890</strong> foi efetuado com sucesso. <br>
-                    Cartão ****-****-****-7768 - 10x R$ 40,00 <br>
-                    Um e-mail com os detalhes da transação foi enviado para email@dominio.com.br
+                <div class="showPedido" style="display:none">
+                    <div class="numeroPedido noUpper botMarg">
+                        <strong>Seu pedido #1234567890 foi efetuado com sucesso.</strong> <br>
+                        Cartão ****-****-****-7768 - 10x R$ 40,00 <br>
+                        Um e-mail com os detalhes da transação foi enviado para email@dominio.com.br
+                    </div>
+                    <table cellspacing="0" cellpadding="0" width="100%" id="myTable">
+                        <thead>
+                            <tr>
+                                <td><strong>Plano</strong></td>
+                                <td><strong>Forma de Pagamento</strong></td>
+                                <td><strong>Valor</strong></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" height="10" class="bg"></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Plano 1</td>
+                                <td>Cartão de Crédito</td>
+                                <td>R$ 499,00</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" height="10" class="bg"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><strong>Cupom de desconto</strong></td>
+                                <td>- R$ 99,00</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" height="10" class="bg"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><strong>Total</strong></td>
+                                <td><strong>R$ 400,00</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
                 </div>
-                <table cellspacing="0" cellpadding="0" width="100%" id="myTable">
-                    <thead>
-                        <tr>
-                            <td><strong>Plano</strong></td>
-                            <td><strong>Forma de Pagamento</strong></td>
-                            <td><strong>Valor</strong></td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" height="10" class="bg"></td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Plano 1</td>
-                            <td>Cartão de Crédito</td>
-                            <td>R$ 499,00</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan="3" height="10" class="bg"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><strong>Cupom de desconto</strong></td>
-                            <td>- R$ 99,00</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" height="10" class="bg"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><strong>Total</strong></td>
-                            <td><strong>R$ 400,00</strong></td>
-                        </tr>
-                    </tfoot>
-                </table>
-</div>
             </div>
         </div>
     </div>
