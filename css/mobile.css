@@ -14,6 +14,11 @@
     .status:before{display: block;width:100%;}
     .status a.retry{width:100%;margin-top:20px;}
     #myTable strong{font-size:16px;}
+
+    #payment .logo{width: 250px}
+    #payment #myTable td {line-height: 20px;padding-top:10px;padding-bottom:10px;}
+    #payment .cupomSubmit{margin-bottom:10px;}
+    #payment .cartoes li{padding:0;margin-left: 20px;}
 }
 @media only screen and (min-width : 480px) and (max-width: 767px) {
     #home h2{font-size:30px;}
@@ -23,11 +28,23 @@
 
     .top{margin:0 0 10px 10px}
     .fazul{margin:0;}
+
+    #payment .cartoes li{margin-left: 17px;}
+}
+@media only screen and (min-width : 540px) and (max-width: 767px) {
+    #payment .cartoes li{margin-left: 25px;}
+
 }
 @media only screen and (min-width : 640px) and (max-width: 767px) {
     .logo{margin-left:50px;}
+    #payment .cartoes li{margin-left: 42px;}
 }
 @media only screen and (min-width : 768px) and (max-width: 768px) {
     .navBg li{margin-left:0;}
     .navBg li a.n{font-size:14px}
+    
+    #payment .cartoes li{margin-left: 65px;padding: 0;}
+}
+@media only screen and (min-width :800px) and (max-width: 800px){
+    #payment .cartoes li{padding:0 30px;}
 }
