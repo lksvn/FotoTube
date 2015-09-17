@@ -167,13 +167,16 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="columns medium-6">
+                                        <div class="columns medium-offset-3 medium-3">
                                             Código de Segurança:
                                             <input type="text" id="pag_cod">
                                         </div>
                                     <div class="clear"></div>
-                                        <div class="columns medium-6">
-                                            Número de Parcelas:
+                                        <div class="columns medium-12">
+                                            <div class="columns medium-3">
+                                                Número de Parcelas:
+                                            </div>
+                                            <div class="columns medium-6 end">
                                             <select name="ano" id="ano">
                                                 <?php
                                                     $valor = 400;
@@ -182,6 +185,7 @@
                                                     }
                                                 ?>
                                             </select>
+                                            </div>
                                         </div>
                                     </div>
                                 </td>

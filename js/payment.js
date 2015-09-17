@@ -13,7 +13,7 @@ $(document).ready(function() {
     $('input[name="formaPagamento"]').click(function(){
         if( $('#cc').is(':checked') ){
             $('.hidePag').fadeIn();
-        }elseif($('#boleto').is(':checked')){
+        }else if($('#boleto').is(':checked')){
             $('.hidePag').fadeOut();
         }
     });
