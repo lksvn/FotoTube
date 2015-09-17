@@ -148,7 +148,12 @@ h6{font-size:14px;line-height:19px}
         .planBox .buy,input[type="submit"]{background-image: none;margin:0 auto;padding:5px 0;text-align:center;text-transform:uppercase;font-size:16px;width:100px;float:none;}
 /* ======================================================================== */
 #payment{background:#eee;padding-top:30px;}
+#payment label{color:#fff;}
 #payment .logo{display:block;width:300px;margin:0 auto 30px auto;}
+#payment table td{line-height:40px !important;padding-top:0;padding-bottom:0;}
+#payment .cartoes{border-bottom:1px solid #fff;}
+#payment .cartoes li{padding:0 50px;}
+#payment .cartoes input[type="radio"]{width:13px;margin:0 0 0 25px;}
 /* ======================================================================== */
 #contact{background:#00c8cc;}
 /* ======================================================================== */

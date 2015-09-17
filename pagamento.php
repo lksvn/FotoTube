@@ -177,14 +177,14 @@
                                                 Número de Parcelas:
                                             </div>
                                             <div class="columns medium-6 end">
-                                            <select name="ano" id="ano">
-                                                <?php
-                                                    $valor = 400;
-                                                    for ($i = 1; $i <= 12; $i++) {
-                                                        echo '<option value="">'.$i.'x R$'.number_format($valor/$i,2,',','.').'</option>';
-                                                    }
-                                                ?>
-                                            </select>
+                                                <select name="ano" id="ano">
+                                                    <?php
+                                                        $valor = 400;
+                                                        for ($i = 1; $i <= 12; $i++) {
+                                                            echo '<option value="">'.$i.'x R$'.number_format($valor/$i,2,',','.').'</option>';
+                                                        }
+                                                    ?>
+                                                </select>
                                             </div>
                                         </div>
                                     </div>
