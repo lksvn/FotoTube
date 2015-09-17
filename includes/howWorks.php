@@ -20,7 +20,7 @@
               Pronto! As fotos dos seus amigos no telão da sua festa.
           </div>
           <div class="clear"></div>
-          <div class="topPad topMarg text-center">
+          <div class="text">
             FotoTube é uma tecnologia que permite você criar o seu próprio conteúdo de imagens, para ser apresentada em sua festa. <br>
             Nesta plataforma eletrônica, além de enviar suas próprias fotos, coletaremos as publicadas no Instagram™ através da hashtag escolhida, exemplo: #BrunaeLuiz.
             <br>  <br>
