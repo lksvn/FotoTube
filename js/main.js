@@ -105,10 +105,13 @@ $(document).ready(function() {
     $('.menuHome > span').click(function() {
         $('.sideMenu').removeClass('hide');
         $(this).parent().fadeOut();
+
     });
     $('.sideMenu .close').click(function() {
         $('.sideMenu').addClass('hide');
         $('.menuHome').fadeIn();
+    });
+
 
     $('.myNav a, .top,.menuHome li a,.top-bar-section a,#scrollDown').click(function() {
         var href = $.attr(this, 'href');
