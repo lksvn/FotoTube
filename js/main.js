@@ -88,6 +88,15 @@ $(document).ready(function() {
         $('#contactForm').fadeOut('fast');
         $('.contactFormMsg').fadeIn();
     });
+    
+    $('#orcamentoP3 input[type="submit"]').click(function(){
+        $('#orcamentoP3 form,.desc').fadeOut('fast');
+        $('#orcamentoP3 .contactFormMsg').fadeIn();
+    });
+    $('#orcamentoP2 input[type="submit"]').click(function(){
+        $('#orcamentoP2 form,.desc').fadeOut('fast');
+        $('#orcamentoP2 .contactFormMsg').fadeIn();
+    });
 
     $(".telefoneMask").mask("(99) 9999-9999?9");
     $(".dateMask").mask("99/99/9999");

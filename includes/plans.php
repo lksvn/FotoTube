@@ -69,9 +69,14 @@
 
     <div id="orcamentoP2" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
       <h2 id="modalTitle">Orçamento Plano 2</h2>
-      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione dolores delectus quo facere quis provident labore autem at rem laudantium earum necessitatibus cupiditate quisquam maxime quidem consequatur ipsum, quod sit.</p>
+      <p class="desc text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione dolores delectus quo facere quis provident labore autem at rem laudantium earum necessitatibus cupiditate quisquam maxime quidem consequatur ipsum, quod sit.</p>
 
-      <form action="#" method="post" data-abide>
+      <div class="contactFormMsg text-center">
+        <strong class="s">ORÇAMENTO ENVIADO COM SUCESSO</strong> <br>
+        Obrigado por entrar em contato, em breve retornaremos
+      </div>
+
+      <form action="#" method="post" data-abide id="orcamentoPlan2">
         <div class="row collapse">
           <div class="columns medium-6">
             <div class="columns medium-12">
@@ -169,9 +174,13 @@
 
     <div id="orcamentoP3" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
       <h2 id="modalTitle">Orçamento Plano 3</h2>
-      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione dolores delectus quo facere quis provident labore autem at rem laudantium earum necessitatibus cupiditate quisquam maxime quidem consequatur ipsum, quod sit.</p>
-
-      <form action="#" method="post" data-abide>
+      <p class="desc text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione dolores delectus quo facere quis provident labore autem at rem laudantium earum necessitatibus cupiditate quisquam maxime quidem consequatur ipsum, quod sit.</p>
+      
+      <div class="contactFormMsg text-center">
+        <strong class="s">ORÇAMENTO ENVIADO COM SUCESSO</strong> <br>
+        Obrigado por entrar em contato, em breve retornaremos
+      </div>
+      <form action="#" method="post" data-abide id="orcamentoPlan3">
         <div class="row collapse">
           <div class="columns medium-6">
             <div class="columns medium-12">
