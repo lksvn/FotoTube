@@ -28,7 +28,8 @@
 .login,
 .navBg li a,
 .planBox .buy,
-input[type="submit"]{
+input[type="submit"],
+.sideMenu li{
     -webkit-transition:background-color .3s;
     -o-transition:background-color .3s;
     transition:background-color .3s;
@@ -105,6 +106,7 @@ h5{font-size:16px;line-height:21px}
 h6{font-size:14px;line-height:19px}
 /* ======================================================================== */
 #home{background:url('../img/bgHome.jpg') no-repeat center top;padding:40px 0 0 0;}
+    .logo{width:520px;margin:0 auto;display:block;}
     #home .login{margin-top:0px;}
     .menuHome{position: relative;}
     .menuHome ul{display:none;position: absolute;top:100%;left:0;z-index:100;width:200px;background:#fff;padding:0;margin:0;list-style: none;}
@@ -114,13 +116,13 @@ h6{font-size:14px;line-height:19px}
 
     #home h2{text-align:center;margin-top:20px;color:#fff;font:normal 42px/100% 'monotypeCorsiva', sans-serif;text-shadow:2px 1px 2px #000;}
 
-    .homeCall{color:#fff;font-family:'helveticaLT', sans-serif;margin-top:110px;}
+    .homeCall{color:#fff;font-family:'helveticaLT', sans-serif;margin-top:150px;}
     .homeCall span{font-size:62px;text-transform:uppercase;text-align: center;display: block;}
     .homeCall span small{font-size:30px;line-height:30px;display: block;}
 
     .stepWrap{background:url('../img/dot.gif') repeat-x 0 40px;float:left;width:25%;text-align: center;font:17px 'helveticaLT',sans-serif;text-shadow:2px 1px 2px #000;}
     .steps .number{font:38px/70px 'helveticaLT',sans-serif;text-shadow:none;display:block;width:70px;height:70px;border:2px solid #00344a;background:#fff;border-radius:100%;color:#00344a;text-align: center;box-shadow:2px 2px 2px #333;margin:0 auto 10px;}
-
+    .steps{margin-top:50px;}
 /* ======================================================================== */
 #howWorks{background:#fff;}
     #howWorks .text{padding:10px;text-align: center}
@@ -188,3 +190,19 @@ h6{font-size:14px;line-height:19px}
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/* ======================================================================== */
+.sideMenu{position: fixed;display:block;top:0;left:0;height: 100%;background:rgba(0,52,74,.8);width:360px;text-align:right;z-index: 9999;
+    -webkit-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+    transition: left 0.5s ease-in-out;
+}
+.sideMenu.hide{left:-360px;}
+
+.sideMenu .menuTitle{color:#fff;padding:30px;font:40px 'helveticaLT',sans-serif;}
+.sideMenu .menuTitle a{float:left;color:#fff;}
+.sideMenu ul{list-style: none;padding:0;margin:0;}
+.sideMenu li{border-bottom:1px solid rgba(255,255,255,.1);}
+.sideMenu li:hover{background: rgba(255,255,255,.1);}
+.sideMenu li:last-child{border:0;}
+.sideMenu li a{font:24px/60px 'helveticaLT',sans-serif;text-transform: uppercase;color:#fff;padding:0 30px;display:block;}

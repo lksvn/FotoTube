@@ -1,17 +1,27 @@
+
   <div class="section" id="home">
+<!-- SIDE MENU -->
+<div class="sideMenu hide">
+  <div class="menuTitle">
+  <a href="javascript:void(0);" class="close">X</a>
+  MENU
+  </div>
+  <div class="clear"></div>
+  <ul>
+    <li><a href="#home" title="Home">Home</a></li>
+    <li><a href="#howWorks" title="Como Funciona">Como Funciona</a></li>
+    <li><a href="#plans" title="Planos">Planos</a></li>
+    <li><a href="#register" title="Cadastro">Cadastro</a></li>
+    <li><a href="#contact" title="Contato">Contato</a></li>
+    <li><a href="#orderStatus" title="Status do Pedido">Status do Pedido</a></li>
+  </ul>
+</div>
+
     <div class="row">
       <!-- MENU -->
       <div class="columns small-5 medium-2">
         <div class="menuHome">
-          <span class="wow fadeIn" data-wow-delay=".5s">Menu </span>
-          <ul>
-            <li><a href="#home" title="Home">Home</a></li>
-            <li><a href="#howWorks" title="Como Funciona">Como Funciona</a></li>
-            <li><a href="#plans" title="Planos">Planos</a></li>
-            <li><a href="#register" title="Cadastro">Cadastro</a></li>
-            <li><a href="#contact" title="Contato">Contato</a></li>
-            <li><a href="#orderStatus" title="Status do Pedido">Status do Pedido</a></li>
-          </ul>
+          <span class="wow fadeIn" data-wow-delay=".5s">Menu </span> 
         </div>
       </div>
       <!-- LOGIN -->
@@ -21,7 +31,7 @@
     </div>
     <div class="row">
       <!-- LOGO -->
-      <div class="columns medium-offset-2 medium-10">
+      <div class="columns medium-12">
         <a href="#" class="logo" title="Foto Tube">
           <img src="img/logo.png" alt="Foto Tube" class=" wow fadeInDown">
         </a>
