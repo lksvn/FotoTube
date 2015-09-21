@@ -89,9 +89,9 @@ $(document).ready(function() {
         $('.contactFormMsg').fadeIn();
     });
 
-    $("#telefone,#telefone2").mask("(99) 9999-9999?9");
-    $("#dateOfBirth").mask("99/99/9999");
-    $("#cpf,#cpf2").mask("999.999.999-9?9");
+    $(".telefoneMask").mask("(99) 9999-9999?9");
+    $(".dateMask").mask("99/99/9999");
+    $(".cpfMask").mask("999.999.999-9?9");
 
     $('.menuHome > span').click(function() {
         $('.menuHome ul').fadeIn();

@@ -23,7 +23,7 @@
               <div class="columns medium-6">
                 <div>
                   <label>CPF: *
-                  <input type="text" required  id="cpf" name="cpf">
+                  <input type="text" required class="cpfMask" id="cpf" name="cpf">
                   </label>
                   <small class="error">Por favor, digite o seu CPF</small>
                 </div>
@@ -31,7 +31,7 @@
               <div class="columns medium-6">
                 <div>
                   <label>Telefone: *
-                  <input type="text" required  id="telefone" name="telefone">
+                  <input type="text" required  class="telefoneMask" id="telefone" name="telefone">
                   </label>
                   <small class="error">Por favor, digite o seu telefone</small>
                 </div>
@@ -69,7 +69,7 @@
               </div>
               <div>
                 <label>CPF:
-                <input type="text" required  id="cpf2" name="cpf2">
+                <input type="text" required class="cpfMask" id="cpf2" name="cpf2">
                 </label>
                 <small class="error">Por favor, digite o seu CPF</small>
               </div>

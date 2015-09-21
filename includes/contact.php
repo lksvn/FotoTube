@@ -33,7 +33,7 @@
               </div>
               <div>
                 <label>Telefone: *
-                <input type="text"  id="telefone2" name="telefone" required>
+                <input type="text" class="telefoneMask" id="telefone2" name="telefone" required>
                 </label>
                 <small class="error">Por favor, digite o seu telefone</small>
               </div>
