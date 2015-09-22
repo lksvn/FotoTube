@@ -61,7 +61,7 @@ body{font-family:'Open Sans',sans-serif;}
 #pagepiling{height:100%;}
 .section{min-height:100%;width:100%;position:relative;top:0;left:0;padding-top:95px;}
 
-.top{width:55px;height:55px;background:#00344a url('../img/topArrow.png') no-repeat 0 0;display:block;z-index:100;float:right;margin-top:-80px;}
+.top{width:55px;height:55px;background:#00344a url('../img/topArrow.png') no-repeat 0 0;display:block;z-index:100;float:right;margin-top:-80px;margin-right:-80px;}
 .login,
 .planBox .buy,
 input[type="submit"]{cursor:pointer;border:0;display: block;float:right;padding:0 0 0 25px;width:70px;margin-top:12px;color:#fff;font:normal 14px/25px 'helveticaLT',sans-serif;background:#ff3f42 url('../img/user.png') no-repeat 5px 6px;text-transform: none}
@@ -126,6 +126,8 @@ h6{font-size:14px;line-height:19px}
 /* ======================================================================== */
 #howWorks{background:#fff;}
     #howWorks .text{padding:10px;text-align: center}
+    .playVideo{position: relative;}
+    .playVideo span{display:block;background:url('../img/playicon.png') no-repeat 0 0;background-size:cover;width:71px;height:50px;position: absolute;left: 50%;top:50%;margin:-25px 0 0 -35px;}
 /* ======================================================================== */
 #register{background:#fff;}
     .termsOfUse {font-size:12px;}
@@ -133,9 +135,12 @@ h6{font-size:14px;line-height:19px}
     .titleLogin,.titleSignIn{display:block;margin-bottom:40px;text-align:center;text-transform:uppercase;color:#fff;font:18px/45px 'helveticaLT',sans-serif;background:#00344a;}
     .titleLogin{background:#00c8cc;}
 
-    .contactFormMsg ul{margin:10px 0 10px 85px}
-    .contactFormMsg strong{font-size:30px;color:#00344a;}
+    .contactFormMsg ul{margin:20px auto 100px;width: 200px;}
+    .contactFormMsg li{margin:0 35px 0 0;}
+    .contactFormMsg li:last-child{margin:0;}
+    .contactFormMsg strong{font-size:30px;color:#00344a;display: block;    margin-bottom: 10px;}
     .contactFormMsg strong.s{font-size:20px;}
+    #register .contactFormMsg strong.s{margin-top:100px;}
     .contactFormMsg a[class^='icon']{display:block;width:42px;height:42px;background:url('../img/social.png') no-repeat 0 0;}
     .contactFormMsg a.iconInst{background-position: -42px 0}
     .contactFormMsg a.iconFb{background-position: -83px 0}
@@ -165,9 +170,10 @@ h6{font-size:14px;line-height:19px}
     .fazul{background:url('../img/fazul.png') no-repeat 0 0;display: block;width:63px;height:28px;}
 
     .statusPedido{display:none;}
-    .status{color:#fff;text-align: center;padding:10px;margin:10px 0;}
-        .status a strong{font-size:20px;}
-        .status a.retry{background:#fff;color:#ff3f42;text-transform: uppercase;padding: 2px 5px;float: right;font-size: 14px;}        .status:before{content:'STATUS';font-weight: bold;float:left;}
+    .status{color:#fff;text-align: center;padding:10px 20px;margin:10px 0;position: relative;}
+        .status a strong{font-size:20px;display:block;margin:10px 0;}
+        .status a.retry{background:#fff;color:#ff3f42;text-transform: uppercase;padding:7px;font-size: 14px;position: absolute;top:5px;right:5px;}
+        .status:before{content:'STATUS';font-weight: bold;left:30px;position: absolute;}
     .status.nope{background:#ff3f42;}
     .status.wait{background:#ffc107;color:#00344a;}
         .status.wait:before{color:#00344a;}

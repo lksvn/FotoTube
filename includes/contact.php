@@ -6,7 +6,7 @@
         <div class="row">
           <div class="columns medium-5 medium-offset-3">
             <div class="contactFormMsg text-center">
-              <strong>15 3031 5056</strong> <br>
+              <strong>15 3031 5056</strong> 
               <a href="mailto:contato@fototube.com.br">contato@fototube.com.br</a>
               <ul class="inline-list">
                 <li><a href="https://www.facebook.com/FotoTubeBR" title="Facebook - FotoTubeBR" target="_blank" data-tooltip aria-haspopup="true" class="iconFb tip-top"></a></li>
@@ -14,7 +14,7 @@
                 <li><a href="#" title="Skype - fototubebr" target="_blank" data-tooltip aria-haspopup="true" class="iconSky tip-top"></a></li>
               </ul>
               <div class="clear"></div>
-              <strong class="s">FORMULÁRIO ENVIADO COM SUCESSO.</strong> <br>
+              <strong class="s">FORMULÁRIO ENVIADO COM SUCESSO.</strong> 
               Obrigado por entrar em contato, em breve retornaremos
 
             </div>

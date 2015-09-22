@@ -107,7 +107,7 @@ $(document).ready(function() {
         $(this).parent().fadeOut();
 
     });
-    $('.sideMenu .close').click(function() {
+    $('.sideMenu .close,.sideMenu li a').click(function() {
         $('.sideMenu').addClass('hide');
         $('.menuHome').fadeIn();
     });

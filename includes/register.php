@@ -73,7 +73,7 @@
                 </label>
                 <small class="error">Por favor, digite o seu CPF</small>
               </div>
-              <input type="submit" value="Cadastrar" class="right">
+              <input type="submit" value="Entrar" class="right">
             </form>
             <div class="clear"></div>
             <div class="formMsg" id="logIn">

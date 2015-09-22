@@ -73,8 +73,9 @@
                         <td colspan="3" height="10" class="bg"></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><strong>Total</strong></td>
-                        <td>R$ 400,00</td>
+                        <td><strong>Total</strong></td>
+                        <td><strong>Forma de pagamento</strong></td>
+                        <td><strong>R$ 400,00</strong></td>
                     </tr>
                 </tfoot>
             </table>
