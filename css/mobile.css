@@ -34,7 +34,7 @@
     #myTable strong{font-size:16px;}
 
     #payment .logo{width: 250px}
-    #payment #myTable td {line-height: 20px;padding-top:10px;padding-bottom:10px;}
+    #payment #myTable td {line-height: 20px;padding:10px 5px;}
     #payment .cupomSubmit{margin-bottom:10px;}
     #payment .cartoes li{padding:0;margin-left: 20px;}
 
@@ -51,6 +51,7 @@
     .top{margin:0 0 10px 10px}
     
     #payment .cartoes li{margin-left: 17px;}
+    #payment #myTable td {padding:10px;}
 }
 @media only screen and (min-width : 540px) and (max-width: 767px) {
     #payment .cartoes li{margin-left: 25px;}
@@ -66,7 +67,8 @@
     .navBg li{margin-left:0;}
     .navBg li a.n{font-size:14px}
     
-    #payment .cartoes li{margin-left: 65px;padding: 0;}
+    #payment .cartoes li{margin-left: 33px;padding: 0;}
+    #payment #myTable td {line-height: 20px;padding:10px;}
 
     .homeCall{margin-top:60px;}
     .steps {margin-top: 10px;}
@@ -74,5 +76,6 @@
 @media only screen and (min-width :800px) and (max-width: 800px){
     .navBg li{margin-left:0;}
     .navBg li a.n{font-size:14px}
-    #payment .cartoes li{padding:0 30px;}
+    #payment .cartoes li{padding:0 8px;}
+    #payment #myTable td {line-height: 20px;padding:10px;}
 }

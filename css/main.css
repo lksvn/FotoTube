@@ -158,9 +158,10 @@ h6{font-size:14px;line-height:19px}
 #payment{background:#eee;padding-top:30px;}
     #payment label{color:#fff;}
     #payment .logo{display:block;width:300px;margin:0 auto 30px auto;}
+    #payment #myTable {margin-bottom: 0;}
     #payment #myTable td{line-height:40px;padding-top:0;padding-bottom:0;}
     #payment .cartoes{border-bottom:1px solid #fff;}
-    #payment .cartoes li{padding:0 50px;}
+    #payment .cartoes li{padding:0 40px;}
     #payment .cartoes input[type="radio"]{width:13px;margin:0 0 0 25px;}
 /* ======================================================================== */
 #contact{background:#00c8cc;}
@@ -180,7 +181,7 @@ h6{font-size:14px;line-height:19px}
     .status.done{background:#00c8cc;}
 
     #myTable,#myTable table{border:0;}
-    #myTable thead,#myTable td,#myTable tfoot{background:#00344a;color:#fff;font-weight: normal}
+    #myTable thead,#myTable td,#myTable tfoot{background:#00344a;color:#fff;font-weight: normal;font-size:16px;}
     #myTable strong{text-transform: uppercase;font:bold 20px 'helveticaLT',sans-serif;}
     #myTable .bg{background:#eee;padding:0;}
 

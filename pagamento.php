@@ -22,7 +22,7 @@
 
             <a href="#" class="logo"><img src="img/logo_n2.png" alt="Foto Tube"></a>
 
-            <div class="columns medium-12 collapse">
+            <div class="columns small-12 medium-centered medium-9">
                 <form action="#" method="post" data-abide>
                     <table cellspacing="0" cellpadding="0" width="100%" id="myTable">
                         <thead>
@@ -55,10 +55,10 @@
                             <tr>
                                 <td><strong>Cupom de desconto</strong></td>
                                 <td>
-                                    <div class="columns medium-8 noPad topPad">
+                                    <div class="columns medium-6 noPad topPad">
                                         <input type="text" name="cupom" id="cupom">
                                     </div>
-                                    <div class="columns medium-4 noMarg topPad">
+                                    <div class="columns medium-4 end noMarg topPad">
                                         <input type="submit" value="Validar" class="cupomSubmit" name="cupomSubmit" id="cupomSubmit">
                                     </div>
                                 </td>
@@ -191,6 +191,9 @@
                                         </div>
                                     </div>
                                 </td>
+                            </tr>
+                            <tr class="hidePag">
+                                <td colspan="3" height="10" class="bg"></td>
                             </tr>
                         </tbody>
                     </table>
