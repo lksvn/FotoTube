@@ -113,12 +113,23 @@
               <small class="error">Por favor, digite a cidade</small>
             </div>
             <div class="columns medium-3">
-              <label for="orcUF">UF:*
-                <input type="text"  name="orcUF" id="orcUF" required>
+              <label for="orcUF">UF:
+                <input type="text"  name="orcUF" id="orcUF">
               </label>
-              <small class="error">Por favor, digite o estado</small>
             </div>
             
+            <div class="columns medium-6">
+              <label for="orcHoraInicio">Horário de Início:
+                <input type="text" class="hour" name="orcHoraInicio" id="orcHoraInicio">
+              </label>
+            </div>
+            <div class="columns medium-6">
+              <label for="orcDuracao">Duração do Evento:*
+                <input type="text" class="hour" name="orcDuracao" id="orcDuracao" required>
+                <small class="error">Por favor, informe a duração do evento</small>
+              </label>
+            </div>
+
             <small class="leftMarg">(*) Campos de preenchimento obrigatório.</small>
           </div>
 
@@ -180,7 +191,7 @@
         <strong class="s">ORÇAMENTO ENVIADO COM SUCESSO</strong> <br>
         Obrigado por entrar em contato, em breve retornaremos
       </div>
-      <form action="#" method="post" data-abide id="orcamentoPlan3">
+      <form action="#" method="post" data-abide id="orcamentoPlan2">
         <div class="row collapse">
           <div class="columns medium-6">
             <div class="columns medium-12">
@@ -217,12 +228,23 @@
               <small class="error">Por favor, digite a cidade</small>
             </div>
             <div class="columns medium-3">
-              <label for="orcUF">UF:*
-                <input type="text"  name="orcUF" id="orcUF" required>
+              <label for="orcUF">UF:
+                <input type="text"  name="orcUF" id="orcUF">
               </label>
-              <small class="error">Por favor, digite o estado</small>
             </div>
             
+            <div class="columns medium-6">
+              <label for="orcHoraInicio">Horário de Início:
+                <input type="text" class="hour" name="orcHoraInicio" id="orcHoraInicio">
+              </label>
+            </div>
+            <div class="columns medium-6">
+              <label for="orcDuracao">Duração do Evento:*
+                <input type="text" class="hour" name="orcDuracao" id="orcDuracao" required>
+                <small class="error">Por favor, informe a duração do evento</small>
+              </label>
+            </div>
+
             <small class="leftMarg">(*) Campos de preenchimento obrigatório.</small>
           </div>
 

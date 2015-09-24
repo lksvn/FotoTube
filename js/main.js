@@ -100,6 +100,7 @@ $(document).ready(function() {
 
     $(".telefoneMask").mask("(99) 9999-9999?9");
     $(".dateMask").mask("99/99/9999");
+    $(".hour").mask("99:99");
     $(".cpfMask").mask("999.999.999-9?9");
 
     $('.menuHome > span').click(function() {

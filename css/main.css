@@ -92,6 +92,9 @@ input:hover[type="submit"]{background-color:#00c8cc;color:#fff;}
     }
     .navBg.hide{top:-50px;}
     .navBg ul{padding:0;margin:0;}
+    .navBg li{margin-left:35px;}
+    .navBg li:first-child{margin:0;}
+    .navBg li:last-child{float:right;}
     .navBg li a.n{font:16px/30px 'helveticaLT',sans-serif;color:#fff;text-transform: uppercase;padding:0 10px;margin-top:10px;}
     .navBg li:hover a.n,.navBg li a.n.active{background:#00c8cc;}
     .logo2{display:block;width:40px;height:40px;background:url('../img/logo2.png') no-repeat 0 0;padding:0;margin-top:7px;}
@@ -152,7 +155,7 @@ h6{font-size:14px;line-height:19px}
         .planBox .planTitle{font:30px/55px 'helveticaLT',sans-serif;text-transform: uppercase;display: block;background:#00344a;}
         .planBox .planPrice{font-weight: bold;height:100px;margin-bottom: 10px}
         .planBox ul{list-style: none;padding:0;margin:0;}
-            .planBox li{margin-bottom:25px;}
+            .planBox li{margin-bottom:20px;}
         .planBox .buy,input[type="submit"]{background-image: none;margin:0 auto;padding:5px 0;text-align:center;text-transform:uppercase;font-size:16px;width:100px;float:none;}
 /* ======================================================================== */
 #payment{background:#eee;padding-top:30px;}
@@ -186,7 +189,7 @@ h6{font-size:14px;line-height:19px}
     #myTable .bg{background:#eee;padding:0;}
 
     .resumoPedido,.numeroPedido{text-align: center;text-transform: uppercase;font-size:20px;}
-    .resumoPedido{color:#ff3f42}
+    .resumoPedido{color:#ff3f42;margin-top:25px;}
     .numeroPedido{color:#00344a;}
 /* ======================================================================== */
 .logo2:hover{
@@ -198,6 +201,10 @@ h6{font-size:14px;line-height:19px}
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
+/* ======================================================================== */
+#videoModal{padding:0;}
+#videoModal .flex-video{margin-bottom:0;}
+#modalTitle{text-transform: none;color:#00344a}
 /* ======================================================================== */
 .sideMenu{position: fixed;display:block;top:0;left:0;height: 100%;background:rgba(0,52,74,.8);width:360px;text-align:right;z-index: 9999;
     -webkit-transition: left 0.5s ease-in-out;
@@ -213,3 +220,6 @@ h6{font-size:14px;line-height:19px}
 .sideMenu li:hover{background: rgba(255,255,255,.1);}
 .sideMenu li:last-child{border:0;}
 .sideMenu li a{font:24px/60px 'helveticaLT',sans-serif;text-transform: uppercase;color:#fff;padding:0 30px;display:block;}
+
+input[type="text"],textarea,select{border:1px solid #959595;}
+.desc{margin:20px 0;}
