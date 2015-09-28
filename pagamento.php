@@ -209,7 +209,7 @@
                     <table cellspacing="0" cellpadding="0" width="100%" id="myTable">
                         <thead>
                             <tr>
-                                <td><strong>Plano</strong></td>
+                                <td width="250"><strong>Plano</strong></td>
                                 <td><strong>Forma de Pagamento</strong></td>
                                 <td><strong>Valor</strong></td>
                             </tr>
